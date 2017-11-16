@@ -64,7 +64,9 @@ void loop() {
 
     //The mobile app is only transmitting enough bytes for Lat and Long. 
     //This is left here for future reference.
-    Serial.print('\t'); Serial.print(alt, 6); Serial.println(" meters");
+    //Serial.print('\t'); Serial.print(alt, 6); Serial.println(" meters");
+
+    //This shows a 'text-based' version of the UART data
     //Serial.println(readString);
 
     readString="";
